@@ -9,10 +9,8 @@ public class MainFrame extends JFrame {
         setSize(1280, 720);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        MainPanel authPanel = new MainPanel();
-        MainPanel regPanel = new MainPanel();
-        getContentPane().add(authPanel);
-        getContentPane().add(regPanel);
+        MainPanel regAuthPanel = new MainPanel();
+        getContentPane().add(regAuthPanel);
 
     }
 }
