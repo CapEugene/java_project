@@ -16,9 +16,9 @@ public class DBWork {
         return null;
     }
 
-    public MyUser AddUser(MyUser user) {
+    public void AddUser(MyUser user) {
         users.add(user);
-        return user;
+//        return user;
 //        System.out.printf(user.getLogin(), user.getPassword());
 //        System.out.println(users);
     }

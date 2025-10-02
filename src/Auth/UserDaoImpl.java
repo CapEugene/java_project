@@ -11,6 +11,7 @@ import java.util.*;
 
 public class UserDaoImpl implements UserDao<MyUser> {
     private final String filePath = "users.json";
+//    private List<MyUser> users = new ArrayList<>();
     private final Gson gson = new Gson();
     private final DBWork db = new DBWork();
     public UserDaoImpl() {
